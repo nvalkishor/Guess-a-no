@@ -1,0 +1,17 @@
+#!/user/local/bin/python
+import random
+
+x=random.randint(1,100)
+print("Guess a no betwee 1 to 100 ")
+Guess='False'
+while( Guess == 'false'):
+  UG=raw_input("enter your guess>>")
+  if x > UG :
+    print("Your guess is low")
+    else if x < UG:
+      print("Your guess is high")
+   else:
+      print(You have guessed it right")
+      
+ print(" The correct guess is % x" , x)
+ 
